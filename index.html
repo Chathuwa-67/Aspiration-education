@@ -1,0 +1,1845 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Aspiration Education Research & Development Institute"
+    />
+    <meta
+      name="keywords"
+      content="education, research, development, korean language, research methodology, institute, sri lanka"
+    />
+    <title>Aspiration Education Research & Development Institute</title>
+
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css" />
+
+    <!-- owl carousel Css -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css" />
+
+    <!-- jquery-simple-mobilemenu Css -->
+    <link rel="stylesheet" href="assets/css/jquery-simple-mobilemenu.css" />
+
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+      :root {
+        --primary: #f2a922;
+        --primary-dark: #d4901a;
+        --primary-light: #ffd180;
+        --primary-bg: #fff8ee;
+        --dark: #1a1a2e;
+        --text: #3d3d3d;
+        --heading-font: "Playfair Display", serif;
+        --body-font: "DM Sans", sans-serif;
+      }
+
+      body {
+        font-family: var(--body-font);
+        color: var(--text);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: var(--heading-font);
+      }
+
+      /* ===== NAVBAR ===== */
+      #navigation {
+        background: #fff !important;
+        box-shadow: 0 2px 20px rgba(242, 169, 34, 0.12);
+        border-bottom: 3px solid var(--primary);
+      }
+
+      #main-menu ul li a {
+        font-family: var(--body-font);
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+
+      #main-menu ul li a:hover {
+        color: var(--primary) !important;
+      }
+
+      .header-btn {
+        color: var(--primary) !important;
+        border: 1.5px solid var(--primary) !important;
+        border-radius: 6px;
+        padding: 8px 20px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .header-btn:hover {
+        background: var(--primary) !important;
+        color: #fff !important;
+      }
+
+      .btn_one {
+        background: var(--primary) !important;
+        border: 2px solid var(--primary) !important;
+        color: #fff !important;
+        font-family: var(--body-font);
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        transition: all 0.3s ease;
+      }
+
+      .btn_one:hover {
+        background: var(--primary-dark) !important;
+        border-color: var(--primary-dark) !important;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(242, 169, 34, 0.35);
+      }
+
+      /* Site Logo text styling */
+      .site-logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+      }
+
+      .site-logo-text span.logo-main {
+        font-family: var(--heading-font);
+        font-weight: 700;
+        font-size: 15px;
+        color: var(--dark);
+        letter-spacing: 0.2px;
+      }
+
+      .site-logo-text span.logo-sub {
+        font-family: var(--body-font);
+        font-weight: 400;
+        font-size: 10px;
+        color: var(--primary);
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+
+      .logo-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        background: var(--primary);
+        border-radius: 8px;
+        margin-right: 10px;
+        font-family: var(--heading-font);
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+        flex-shrink: 0;
+      }
+
+      /* ===== HERO / HOME ===== */
+      .home_bg {
+        background: linear-gradient(
+          135deg,
+          #1a1a2e 0%,
+          #16213e 60%,
+          #0f3460 100%
+        ) !important;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .home_bg::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        right: -80px;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(242, 169, 34, 0.18) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+
+      .home_bg::after {
+        content: "";
+        position: absolute;
+        bottom: -60px;
+        left: -60px;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(242, 169, 34, 0.1) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+
+      .hero-text h1 {
+        font-family: var(--heading-font);
+        color: #fff;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+
+      .hero-text h1 span {
+        color: var(--primary);
+        display: block;
+      }
+
+      .hero-text p {
+        color: rgba(255, 255, 255, 0.75);
+      }
+
+      .home_sb .subscribe__btn {
+        background: var(--primary) !important;
+        color: #fff !important;
+        font-weight: 600;
+      }
+
+      .home_ps {
+        background: rgba(242, 169, 34, 0.92) !important;
+        border: none !important;
+        box-shadow: 0 8px 24px rgba(242, 169, 34, 0.4);
+      }
+
+      /* ===== COUNTER ===== */
+      .count_area {
+        background: var(--primary) !important;
+      }
+
+      .single-counter {
+        border: none !important;
+      }
+
+      .single-counter h2,
+      .single-counter p,
+      .single-counter span {
+        color: #1a1a2e !important;
+      }
+
+      /* ===== CATEGORY (features) ===== */
+      .top_cat__area {
+        background: var(--primary-bg) !important;
+      }
+
+      .section-title h2 {
+        font-family: var(--heading-font);
+        font-weight: 700;
+        color: var(--dark);
+      }
+
+      .section-title h2 b {
+        color: var(--primary);
+      }
+
+      .single_tp span.sc_one {
+        color: var(--primary) !important;
+        border-color: var(--primary) !important;
+      }
+      .single_tp span.sc_two {
+        color: var(--primary-dark) !important;
+        border-color: var(--primary-dark) !important;
+      }
+      .single_tp span.sc_three {
+        color: #e8901a !important;
+        border-color: #e8901a !important;
+      }
+      .single_tp span.sc_four {
+        color: #c67a14 !important;
+        border-color: #c67a14 !important;
+      }
+
+      /* ===== COURSE SECTION ===== */
+      .single_course {
+        border-top: 3px solid var(--primary) !important;
+        transition: all 0.3s ease;
+      }
+
+      .single_course:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 32px rgba(242, 169, 34, 0.18) !important;
+      }
+
+      .single_c_img span {
+        background: var(--primary) !important;
+        color: #fff !important;
+        font-family: var(--body-font);
+        font-weight: 600;
+      }
+
+      .single_course .fa-star {
+        color: var(--primary) !important;
+      }
+
+      .single_course h4 a {
+        font-family: var(--heading-font);
+        color: var(--dark);
+      }
+
+      .single_course h4 a:hover {
+        color: var(--primary);
+      }
+
+      .price {
+        background: var(--primary-bg) !important;
+        color: var(--primary-dark) !important;
+        font-weight: 700 !important;
+        font-family: var(--body-font);
+        border-left: 3px solid var(--primary) !important;
+        padding-left: 10px;
+      }
+
+      /* ===== PARTNER LOGO ===== */
+      .part_bg {
+        border: 2px solid rgba(242, 169, 34, 0.2) !important;
+        border-radius: 12px;
+      }
+
+      .partner_title h3 span {
+        color: var(--primary) !important;
+      }
+
+      /* ===== VIDEO SECTION ===== */
+      .video-button {
+        background: var(--primary) !important;
+        border: 4px solid #fff !important;
+        box-shadow: 0 0 0 6px rgba(242, 169, 34, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .video-button:hover {
+        background: var(--primary-dark) !important;
+        box-shadow: 0 0 0 10px rgba(242, 169, 34, 0.15);
+      }
+
+      /* ===== TEAM ===== */
+      .our-team {
+        border-bottom: 3px solid var(--primary) !important;
+        transition: all 0.3s ease;
+      }
+
+      .our-team:hover {
+        box-shadow: 0 8px 28px rgba(242, 169, 34, 0.15) !important;
+        transform: translateY(-4px);
+      }
+
+      .social-links li a {
+        background: var(--primary) !important;
+        transition: all 0.3s ease;
+      }
+
+      .social-links li a:hover {
+        background: var(--primary-dark) !important;
+      }
+
+      /* ===== TESTIMONIALS ===== */
+      .testi_area {
+        background: var(--primary-bg) !important;
+      }
+
+      .ti-star {
+        color: var(--primary) !important;
+      }
+
+      /* ===== FOOTER ===== */
+      .footer {
+        background: var(--dark) !important;
+      }
+
+      .footer h4 {
+        color: var(--primary) !important;
+        font-family: var(--heading-font);
+      }
+
+      .footer p,
+      .footer li a,
+      .footer .sf_contact p {
+        color: rgba(255, 255, 255, 0.7) !important;
+      }
+
+      .footer li a:hover {
+        color: var(--primary) !important;
+      }
+
+      .f_facebook,
+      .f_twitter,
+      .f_instagram,
+      .f_linkedin {
+        background: rgba(242, 169, 34, 0.15) !important;
+        border-color: rgba(242, 169, 34, 0.3) !important;
+        transition: all 0.3s ease;
+      }
+
+      .f_facebook:hover,
+      .f_twitter:hover,
+      .f_instagram:hover,
+      .f_linkedin:hover {
+        background: var(--primary) !important;
+        border-color: var(--primary) !important;
+      }
+
+      .foot_copy {
+        background: #111122 !important;
+        border-top: 2px solid var(--primary) !important;
+      }
+
+      .foot_copy p,
+      .foot_copy a {
+        color: rgba(255, 255, 255, 0.6) !important;
+      }
+
+      .foot_copy a:hover {
+        color: var(--primary) !important;
+      }
+
+      /* ===== HOME SEARCH ===== */
+      .home_si:focus {
+        border-color: var(--primary) !important;
+        box-shadow: 0 0 0 3px rgba(242, 169, 34, 0.15) !important;
+      }
+
+      /* ===== CAT LIST (category pills) ===== */
+      .cat_list ul li a {
+        background: #fff;
+        border: 1.5px solid rgba(242, 169, 34, 0.3);
+        transition: all 0.3s ease;
+        font-family: var(--body-font);
+      }
+
+      .cat_list ul li a:hover {
+        background: var(--primary) !important;
+        color: #fff !important;
+        border-color: var(--primary) !important;
+      }
+
+      /* ===== TOP ANNOUNCEMENT BAR ===== */
+      .top-announcement {
+        background: var(--primary);
+        padding: 8px 0;
+        text-align: center;
+      }
+
+      .top-announcement p {
+        margin: 0;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+
+      .top-announcement p a {
+        color: var(--dark);
+        font-weight: 700;
+        text-decoration: underline;
+      }
+
+      /* ===== INSTITUTE TAGLINE UNDER HERO ===== */
+      .institute-tagline {
+        display: inline-block;
+        background: rgba(242, 169, 34, 0.15);
+        border: 1px solid rgba(242, 169, 34, 0.4);
+        border-radius: 20px;
+        padding: 5px 16px;
+        font-size: 12px;
+        color: var(--primary-light);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      /* ===== HOME PS2 ===== */
+      .home_ps2 {
+        background: var(--primary) !important;
+        box-shadow: 0 8px 24px rgba(242, 169, 34, 0.4) !important;
+      }
+
+      /* ===== ABOUT CONTENT CHECK LIST ===== */
+      .ab_content ul li span {
+        color: var(--primary) !important;
+      }
+
+      /* ===== SCROLL REVEAL TWEAKS ===== */
+      .single_tp:hover {
+        box-shadow: 0 8px 28px rgba(242, 169, 34, 0.12) !important;
+        transform: translateY(-4px);
+        transition: all 0.3s ease;
+      }
+
+      /* Navbar active link */
+      #main-menu ul li.active > a,
+      #main-menu ul li > a.active {
+        color: var(--primary) !important;
+      }
+
+      /* Submenus */
+      #main-menu ul ul {
+        border-top: 3px solid var(--primary) !important;
+      }
+
+      /* Blog cards */
+      .single_blog:hover {
+        box-shadow: 0 10px 32px rgba(242, 169, 34, 0.14) !important;
+      }
+
+      .single_blog .content_box span a {
+        color: var(--primary) !important;
+      }
+
+      .single_blog h2 a:hover {
+        color: var(--primary) !important;
+      }
+
+      /* Preloader color */
+      .loader {
+        border-top-color: var(--primary) !important;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-offset="80">
+    <!-- START PRELOADER -->
+    <div class="preloaders">
+      <img
+        src="assets/img/aspirations_education_logo.png"
+        alt="Loading"
+        class="preloader-image"
+      />
+    </div>
+    <!-- END PRELOADER -->
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="top-announcement">
+      <p>
+        🎓 New Intake Open — Korean Language & Research Methodology Courses
+        &nbsp;|&nbsp; <a href="404.html">Apply Now</a>
+      </p>
+    </div>
+
+    <!-- START NAVBAR -->
+    <div id="navigation" class="navbar-light bg-faded site-navigation">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-20 align-self-center">
+            <div class="site-logo">
+              <a
+                href="404.html"
+                style="
+                  display: flex;
+                  align-items: center;
+                  text-decoration: none;
+                "
+              >
+                <div class="logo-badge">A</div>
+                <div class="site-logo-text">
+                  <span class="logo-main">Aspiration</span>
+                  <span class="logo-sub">Edu Research & Dev</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!--- END Col -->
+
+          <div class="col-60 d-flex">
+            <nav id="main-menu">
+              <ul>
+                <li class="menu-item-has-children">
+                  <a href="#">Home</a>
+                  <ul>
+                    <li><a href="404.html">Home 01</a></li>
+                    <li><a href="404.html">Home 02</a></li>
+                  </ul>
+                </li>
+                <li><a href="404.html">About</a></li>
+                <li class="menu-item-has-children">
+                  <a href="404.html">Courses</a>
+                  <ul>
+                    <li><a href="404.html">All Courses</a></li>
+                    <li><a href="404.html">Course Details</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Pages</a>
+                  <ul>
+                    <li><a href="404.html">Instructor</a></li>
+                    <li><a href="404.html">Instructor Details</a></li>
+                    <li><a href="404.html">Pricing Plan</a></li>
+                    <li><a href="404.html">FAQ Page</a></li>
+                    <li><a href="404.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="404.html">Blog</a>
+                  <ul>
+                    <li><a href="404.html">Blog</a></li>
+                    <li><a href="404.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="404.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--- END Col -->
+
+          <div class="col-20 d-none d-xl-block text-end align-self-center">
+            <a href="#" class="header-btn">Sign In</a>
+            <a href="404.html" class="btn_one">Enroll Now</a>
+          </div>
+          <!--- END Col -->
+
+          <ul class="mobile_menu">
+            <li>
+              <a href="#">Home</a>
+              <ul class="sub-menu">
+                <li><a href="404.html">Home 01</a></li>
+                <li><a href="404.html">Home 02</a></li>
+              </ul>
+            </li>
+            <li><a href="404.html">About</a></li>
+            <li>
+              <a href="#">Courses</a>
+              <ul class="sub-menu">
+                <li><a href="404.html">All Courses</a></li>
+                <li><a href="404.html">Course Details</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Pages</a>
+              <ul class="sub-menu">
+                <li><a href="404.html">Instructor</a></li>
+                <li><a href="404.html">Instructor Details</a></li>
+                <li><a href="404.html">Pricing Plan</a></li>
+                <li><a href="404.html">FAQ Page</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="404.html">Blog</a>
+              <ul class="sub-menu">
+                <li><a href="404.html">Blog</a></li>
+                <li><a href="404.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li><a href="404.html">Contact</a></li>
+          </ul>
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- START HOME -->
+    <section
+      class="home_bg hb_height"
+      style="
+        background-image: url(assets/img/bg/home-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="hero-text ht_top">
+              <div class="institute-tagline">
+                Est. Research & Development Institute
+              </div>
+              <h1>
+                <span>Aspiration</span> Education Research & Development
+                Institute
+              </h1>
+              <p>
+                Empowering students through language excellence, research
+                mastery, and academic development. Advance your career with
+                internationally recognized programmes.
+              </p>
+            </div>
+            <div class="home_sb">
+              <form action="#" class="banner_subs">
+                <input
+                  type="text"
+                  class="form-control home_si"
+                  placeholder="Search a course — Korean Language, Research..."
+                  required="required"
+                />
+                <button type="button" class="subscribe__btn">
+                  Search <i class="fa fa-paper-plane-o"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="hero-text-img">
+              <img src="assets/img/home-img2.png" class="img-fluid" alt="" />
+              <div class="home_ps">
+                <span class="ti-user"></span>
+                <h2>2800+</h2>
+                <p>Active Students</p>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END HOME -->
+
+    <!-- START COUNTER -->
+    <section class="count_area counter_feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single-counter">
+              <span class="ti-folder sc_one"></span>
+              <h2 class="counter-num">48</h2>
+              <p>Online Courses</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single-counter">
+              <span class="ti-medall-alt sc_two"></span>
+              <h2 class="counter-num">12</h2>
+              <p>Academic Programmes</p>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single-counter">
+              <span class="ti-id-badge sc_three"></span>
+              <h2 class="counter-num">340</h2>
+              <p>Certified Students</p>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single-counter">
+              <span class="ti-user sc_four"></span>
+              <h2 class="counter-num">2800</h2>
+              <p>Enrolled Students</p>
+            </div>
+          </div>
+          <!-- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END COUNTER -->
+
+    <!-- START CATEGORY (Why Choose) -->
+    <section
+      class="top_cat__area section-padding"
+      style="
+        background-image: url(assets/img/bg/shape-1.png);
+        background-size: cover;
+        background-position: center center;
+      "
+    >
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Begin Your Academic Journey With Us</h2>
+          <p>
+            Aspiration Education Research & Development Institute offers a
+            world-class approach to language learning and academic research.
+            Choose from our professionally designed programmes and elevate your
+            knowledge.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+            data-wow-offset="0"
+          >
+            <div class="single_tp">
+              <span class="sc_one">01</span>
+              <h3>Expert <br />Faculty</h3>
+              <p>
+                Learn from qualified researchers, linguists, and academic
+                professionals with international experience.
+              </p>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+            data-wow-offset="0"
+          >
+            <div class="single_tp">
+              <span class="sc_two">02</span>
+              <h3>Research-Led <br />Learning</h3>
+              <p>
+                Our curricula are grounded in the latest academic research,
+                ensuring relevant and rigorous education.
+              </p>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.4s"
+            data-wow-offset="0"
+          >
+            <div class="single_tp">
+              <span class="sc_three">03</span>
+              <h3>Flexible <br />Learning</h3>
+              <p>
+                Study at your own pace with both online and on-campus options to
+                fit your schedule and lifestyle.
+              </p>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+            data-wow-offset="0"
+          >
+            <div class="single_tp">
+              <span class="sc_four">04</span>
+              <h3>Lifetime <br />Support</h3>
+              <p>
+                Our alumni network and career guidance services support you well
+                beyond your graduation.
+              </p>
+            </div>
+          </div>
+          <!-- END COL -->
+        </div>
+        <!-- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END CATEGORY -->
+
+    <!-- START ABOUT US -->
+    <section class="ab_area section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+            data-wow-offset="0"
+          >
+            <div class="ab_img">
+              <img src="assets/img/about1.png" class="img-fluid" alt="image" />
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="ab_content">
+              <h2>
+                Providing World-Class Education for a Globally Connected Future
+              </h2>
+              <p>
+                At Aspiration Education Research & Development Institute, we
+                bridge the gap between academic excellence and real-world
+                application. Our programmes in Korean Language, Research
+                Methodology, and related disciplines are designed to meet
+                international standards.
+              </p>
+              <p>
+                We are committed to nurturing critical thinkers, skilled
+                communicators, and future researchers who can make a meaningful
+                impact across industries and borders.
+              </p>
+              <ul>
+                <li>
+                  <span class="ti-check"></span> Access to
+                  <b>48+</b> professionally curated courses
+                </li>
+                <li>
+                  <span class="ti-check"></span> Industry-aligned curricula with
+                  practical research components
+                </li>
+                <li>
+                  <span class="ti-check"></span> Certified instructors with
+                  international academic credentials
+                </li>
+              </ul>
+              <a class="btn_one" href="404.html"
+                >View All Courses <i class="ti-arrow-top-right"></i
+              ></a>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END ABOUT US -->
+
+    <!-- START POPULAR CATEGORIES -->
+    <section
+      class="top_cat__area section-padding"
+      style="
+        background-image: url(assets/img/bg/section-2.jpg);
+        background-size: cover;
+        background-position: center center;
+      "
+    >
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Browse Our Popular Disciplines</h2>
+          <p>
+            From language studies to advanced research methodologies — discover
+            the field that ignites your passion and aligns with your career
+            goals.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-12 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="cat_list">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e1.png" alt="category-image" /> Korean
+                    Language</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e2.png" alt="category-image" />
+                    Research Methodology</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e3.png" alt="category-image" />
+                    Academic Writing</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e4.png" alt="category-image" />
+                    English Language</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e5.png" alt="category-image" /> Data
+                    Analysis</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e6.png" alt="category-image" />
+                    Qualitative Research</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e7.png" alt="category-image" />
+                    Quantitative Research</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e8.png" alt="category-image" />
+                    Statistics & SPSS</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e9.png" alt="category-image" />
+                    Linguistics</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e2.png" alt="category-image" />
+                    Japanese Language</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e3.png" alt="category-image" /> TOPIK
+                    Preparation</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/e7.png" alt="category-image" />
+                    Education Studies</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END POPULAR CATEGORIES -->
+
+    <!-- START COURSE -->
+    <section class="home_course section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-6 col-xs-12">
+            <div class="section-title">
+              <h2>Explore Our <b>Featured</b> <br />Courses & Programmes</h2>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="cour_btn">
+              <a href="404.html" class="btn_one"
+                >View All Courses <i class="ti-arrow-top-right"></i
+              ></a>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/1.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>Korean Language</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html"
+                  >Korean Language Beginner to Advanced (TOPIK Ready)</a
+                >
+              </h4>
+              <p><span class="ti-book"> </span> 18 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>6 Months</p>
+              <div class="price">Course Fee — LKR 24,500</div>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/2.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>Research</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html"
+                  >Research Methodology: Design, Analysis & Reporting</a
+                >
+              </h4>
+              <p><span class="ti-book"> </span> 24 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>3 Months</p>
+              <div class="price">Course Fee — LKR 18,000</div>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/3.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>Academic Writing</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html"
+                  >Academic Writing & Publication Skills for Researchers</a
+                >
+              </h4>
+              <p><span class="ti-book"> </span> 16 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>2 Months</p>
+              <div class="price">Course Fee — LKR 12,000</div>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/4.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>TOPIK Prep</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html"
+                  >TOPIK I & II Intensive Preparation Programme</a
+                >
+              </h4>
+              <p><span class="ti-book"> </span> 20 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>2 Months</p>
+              <div class="price">Course Fee — LKR 15,000</div>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/5.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>Data Analysis</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html">Statistical Data Analysis Using SPSS & R</a>
+              </h4>
+              <p><span class="ti-book"> </span> 14 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>6 Weeks</p>
+              <div class="price">Course Fee — LKR 9,500</div>
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="single_course">
+              <div class="single_c_img">
+                <img
+                  src="assets/img/course/6.png"
+                  class="img-fluid"
+                  alt="course-image"
+                />
+                <span>Linguistics</span>
+              </div>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i><i class="fa fa-star"></i
+              ><i class="fa fa-star"></i>
+              <h4>
+                <a href="404.html"
+                  >Introduction to Applied Linguistics & Language Studies</a
+                >
+              </h4>
+              <p><span class="ti-book"> </span> 12 Lessons</p>
+              <p><span class="ti-alarm-clock"> </span>6 Weeks</p>
+              <div class="price">Course Fee — Free</div>
+            </div>
+          </div>
+          <!-- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END COURSE -->
+
+    <!-- START COMPANY PARTNER LOGO  -->
+    <div class="partner-logo section-padding">
+      <div class="container">
+        <div class="row part_bg">
+          <div class="col-lg-4 col-sm-4 col-xs-12">
+            <div class="partner_title">
+              <h3>
+                Trusted by <span>leading institutions</span> and organizations
+                across Sri Lanka & beyond
+              </h3>
+            </div>
+          </div>
+          <!-- END COL  -->
+          <div class="col-lg-8 col-sm-8 col-xs-12 text-center">
+            <div class="partner">
+              <a href="#"><img src="assets/img/clients/1.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/2.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/3.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/4.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/5.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/2.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/1.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/3.png" alt="image" /></a>
+              <a href="#"><img src="assets/img/clients/4.png" alt="image" /></a>
+            </div>
+          </div>
+          <!-- END COL  -->
+        </div>
+        <!--END  ROW  -->
+      </div>
+      <!-- END CONTAINER  -->
+    </div>
+    <!-- END COMPANY PARTNER LOGO -->
+
+    <!-- START VIDEO -->
+    <section class="vid_area section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-12 vp_top wow fadeInUDown"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+            data-wow-offset="0"
+          >
+            <div
+              class="video-area"
+              style="
+                background-image: url(assets/img/bg/video.jpg);
+                background-size: cover;
+                background-position: center center;
+              "
+            >
+              <a href="404.html" class="magnific_popup video-button"
+                ><i class="fa fa-play"></i
+              ></a>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END VIDEO -->
+
+    <!-- START TEAM -->
+    <section class="team_area section-padding">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Meet Our Academic Instructors</h2>
+          <p>
+            Our faculty consists of experienced researchers, certified
+            linguists, and academic professionals dedicated to your growth and
+            success.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="our-team">
+              <div class="team-content">
+                <a href="#"><img src="assets/img/team/team1.jpg" alt="" /></a>
+                <ul class="social-links">
+                  <li>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-prof">
+                <h3>Dr. Nayomi Silva</h3>
+                <span>Research Methodology</span>
+              </div>
+              <div class="sth_det2">
+                <span class="ti-file"> <u>06 Courses</u></span>
+                <span class="ti-user"> <u>42 Students</u></span>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="our-team">
+              <div class="team-content">
+                <a href="#"><img src="assets/img/team/team2.jpg" alt="" /></a>
+                <ul class="social-links">
+                  <li>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-prof">
+                <h3>Prof. Kim Ji-ho</h3>
+                <span>Korean Language & TOPIK</span>
+              </div>
+              <div class="sth_det2">
+                <span class="ti-file"> <u>04 Courses</u></span>
+                <span class="ti-user"> <u>85 Students</u></span>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="our-team">
+              <div class="team-content">
+                <a href="#"><img src="assets/img/team/team3.jpg" alt="" /></a>
+                <ul class="social-links">
+                  <li>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-prof">
+                <h3>Ms. Dilhara Perera</h3>
+                <span>Academic Writing & Linguistics</span>
+              </div>
+              <div class="sth_det2">
+                <span class="ti-file"> <u>05 Courses</u></span>
+                <span class="ti-user"> <u>37 Students</u></span>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="our-team">
+              <div class="team-content">
+                <a href="#"><img src="assets/img/team/team4.jpg" alt="" /></a>
+                <ul class="social-links">
+                  <li>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-prof">
+                <h3>Mr. Ruwan Bandara</h3>
+                <span>Data Analysis & Statistics</span>
+              </div>
+              <div class="sth_det2">
+                <span class="ti-file"> <u>03 Courses</u></span>
+                <span class="ti-user"> <u>29 Students</u></span>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END TEAM -->
+
+    <!-- START PROMO -->
+    <section class="ab_area section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="ab_content">
+              <h2>
+                Why Choose Aspiration for Your Academic & Language Education?
+              </h2>
+              <p>
+                We combine rigorous academic standards with a student-centred
+                approach. Whether you're aiming for a TOPIK certification or a
+                research career, Aspiration provides the foundation you need.
+              </p>
+              <p>
+                Our institute is recognized for excellence in Korean language
+                instruction and research training, with graduates succeeding in
+                universities and workplaces across Asia and beyond.
+              </p>
+              <ul>
+                <li>
+                  <span class="ti-check"></span> Internationally aligned
+                  curricula with <b>48+</b> courses
+                </li>
+                <li>
+                  <span class="ti-check"></span> Affordable LKR-priced
+                  programmes with scholarship options
+                </li>
+                <li>
+                  <span class="ti-check"></span> Dedicated academic mentors and
+                  research supervisors
+                </li>
+              </ul>
+              <a class="btn_one" href="404.html"
+                >Explore All Courses <i class="ti-arrow-top-right"></i
+              ></a>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+            data-wow-offset="0"
+          >
+            <div class="ab_img">
+              <img src="assets/img/about3.png" class="img-fluid" alt="image" />
+              <div class="home_ps2">
+                <span class="ti-book"></span>
+                <h2>48+</h2>
+                <p>Active Courses</p>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END PROMO -->
+
+    <!-- START TESTIMONIALS -->
+    <section class="testi_area section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>What Our Students Say About <br />Their Learning Journey</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div class="ab_img">
+              <img src="assets/img/review.png" class="img-fluid" alt="image" />
+            </div>
+          </div>
+          <!-- END COL -->
+          <div class="col-lg-6 col-sm-12 col-xs-12">
+            <div id="testimonial-slider" class="owl-carousel">
+              <div class="testimonial">
+                <img src="assets/img/quote.png" alt="" />
+                <div class="testimonial_content">
+                  <i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i>
+                  <p>
+                    The Korean Language course at Aspiration completely
+                    transformed my language skills. The structured curriculum
+                    and patient instructors helped me pass TOPIK Level 3 on my
+                    first attempt. Highly recommended!
+                  </p>
+                </div>
+                <div class="testi_pic_title">
+                  <img src="assets/img/testimonial/1.png" alt="" />
+                  <h4>Tharindu Wickramasinghe</h4>
+                  <p>Korean Language Graduate</p>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL -->
+              <div class="testimonial">
+                <img src="assets/img/quote.png" alt="" />
+                <div class="testimonial_content">
+                  <i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i>
+                  <p>
+                    The Research Methodology course was exactly what I needed to
+                    complete my postgraduate thesis. The step-by-step guidance
+                    on data collection and analysis was practical and thorough.
+                  </p>
+                </div>
+                <div class="testi_pic_title">
+                  <img src="assets/img/testimonial/2.png" alt="" />
+                  <h4>Sanduni Jayawardena</h4>
+                  <p>Research Methodology Student</p>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL -->
+              <div class="testimonial">
+                <img src="assets/img/quote.png" alt="" />
+                <div class="testimonial_content">
+                  <i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i>
+                  <p>
+                    Aspiration's instructors are incredibly knowledgeable and
+                    supportive. The LKR pricing makes it accessible for local
+                    students without compromising on quality. I'm proud to be an
+                    alumnus.
+                  </p>
+                </div>
+                <div class="testi_pic_title">
+                  <img src="assets/img/testimonial/3.png" alt="" />
+                  <h4>Malsha Fernando</h4>
+                  <p>Academic Writing Graduate</p>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL -->
+              <div class="testimonial">
+                <img src="assets/img/quote.png" alt="" />
+                <div class="testimonial_content">
+                  <i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i><i class="ti-star"></i
+                  ><i class="ti-star"></i>
+                  <p>
+                    I enrolled in the SPSS & Data Analysis course and it
+                    completely changed how I approach research. The hands-on
+                    exercises and detailed explanations make even complex topics
+                    easy to understand.
+                  </p>
+                </div>
+                <div class="testi_pic_title">
+                  <img src="assets/img/testimonial/4.png" alt="" />
+                  <h4>Chamara Dissanayake</h4>
+                  <p>Data Analysis Student</p>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL -->
+            </div>
+            <!-- END TESTIMONIAL SLIDER -->
+          </div>
+          <!-- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <!-- END TESTIMONIALS -->
+
+    <!-- START BLOG -->
+    <section id="blog" class="blog_area section-padding">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Latest News & Academic Insights</h2>
+          <p>
+            Stay updated with the latest trends in language education, research
+            practices, and academic development from our faculty and guest
+            contributors.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="single_blog">
+              <img src="assets/img/blog/1.jpg" class="img-fluid" alt="image" />
+              <div class="content_box">
+                <span
+                  >March 5, 2026 | <a href="404.html">Korean Language</a></span
+                >
+                <h2>
+                  <a href="404.html"
+                    >How to Prepare for TOPIK in 60 Days: A Complete Guide</a
+                  >
+                </h2>
+                <a class="btn_one" href="404.html"
+                  >Read More <i class="ti-arrow-top-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- END COL-->
+          <div
+            class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+          >
+            <div class="single_blog">
+              <img src="assets/img/blog/2.jpg" class="img-fluid" alt="image" />
+              <div class="content_box">
+                <span>April 12, 2026 | <a href="404.html">Research</a></span>
+                <h2>
+                  <a href="404.html"
+                    >Choosing the Right Research Design for Your Study</a
+                  >
+                </h2>
+                <a class="btn_one" href="404.html"
+                  >Read More <i class="ti-arrow-top-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- END COL-->
+          <div
+            class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+            data-wow-offset="0"
+          >
+            <div class="single_blog">
+              <img src="assets/img/blog/3.jpg" class="img-fluid" alt="image" />
+              <div class="content_box">
+                <span>May 20, 2026 | <a href="404.html">Education</a></span>
+                <h2>
+                  <a href="404.html"
+                    >Why Korean Language Skills Are a Career Game-Changer in
+                    2026</a
+                  >
+                </h2>
+                <a class="btn_one" href="404.html"
+                  >Read More <i class="ti-arrow-top-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- END COL-->
+        </div>
+        <!-- / END ROW -->
+      </div>
+      <!-- END CONTAINER  -->
+    </section>
+    <!-- END BLOG -->
+
+    <!-- START FOOTER -->
+    <div class="footer section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single_footer">
+              <a
+                href="404.html"
+                style="
+                  display: flex;
+                  align-items: center;
+                  text-decoration: none;
+                  margin-bottom: 14px;
+                "
+              >
+                <div
+                  class="logo-badge"
+                  style="
+                    width: 32px;
+                    height: 32px;
+                    font-size: 15px;
+                    margin-right: 8px;
+                  "
+                >
+                  A
+                </div>
+                <div class="site-logo-text">
+                  <span class="logo-main" style="color: #fff; font-size: 13px"
+                    >Aspiration</span
+                  >
+                  <span class="logo-sub" style="font-size: 9px"
+                    >Edu Research & Dev</span
+                  >
+                </div>
+              </a>
+              <p>
+                Empowering learners through research-driven education and
+                language excellence. Building tomorrow's scholars today.
+              </p>
+              <div class="social_profile">
+                <ul>
+                  <li>
+                    <a class="f_facebook" href="#"
+                      ><i class="fa-solid fa-x"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="f_twitter" href="#"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="f_instagram" href="#"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="f_linkedin" href="#"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-2 col-sm-6 col-xs-12">
+            <div class="single_footer">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="#">About the Institute</a></li>
+                <li><a href="#">Instructor Registration</a></li>
+                <li><a href="#">Become a Lecturer</a></li>
+                <li><a href="#">All Instructors</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-2 col-sm-6 col-xs-12">
+            <div class="single_footer">
+              <h4>Popular Courses</h4>
+              <ul>
+                <li><a href="#">Korean Language</a></li>
+                <li><a href="#">Research Methodology</a></li>
+                <li><a href="#">Academic Writing</a></li>
+                <li><a href="#">TOPIK Preparation</a></li>
+                <li><a href="#">Data Analysis (SPSS)</a></li>
+                <li><a href="#">Applied Linguistics</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="single_footer">
+              <h4>Contact Info</h4>
+              <div class="sf_contact">
+                <span class="ti-map"></span>
+                <p>
+                  Aspiration Institute, No. 45 Education Road, Colombo 07, Sri
+                  Lanka
+                </p>
+              </div>
+              <div class="sf_contact">
+                <span class="ti-mobile"></span>
+                <p>+94 77 123 4567</p>
+              </div>
+              <div class="sf_contact">
+                <span class="ti-mobile"></span>
+                <p><a href="#">Contact via WhatsApp</a></p>
+              </div>
+              <div class="sf_contact">
+                <span class="ti-email"></span>
+                <p>info@aspirationedu.lk</p>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div class="col-lg-2 col-sm-6 col-xs-12">
+            <div class="single_footer">
+              <h4>Download App</h4>
+              <p>Access your courses anytime via our mobile app.</p>
+              <a href="404.html"> </a>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- START FOOTER COPYRIGHT -->
+    <div class="foot_copy">
+      <div class="footer_copyright">
+        <p>
+          &copy; 2026 Aspiration Education Research & Development Institute. All
+          Rights Reserved.
+        </p>
+      </div>
+    </div>
+    <!-- END FOOTER COPYRIGHT -->
+
+    <!-- Latest jQuery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- jquery-simple-mobilemenu.min -->
+    <script src="assets/js/jquery-simple-mobilemenu.js"></script>
+    <!-- owl-carousel min js  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- magnific-popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- countTo js -->
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <!-- scrolltopcontrol js -->
+    <script src="assets/js/scrolltopcontrol.js"></script>
+    <!-- WOW - Reveal Animations When You Scroll -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Page Not Found — Aspiration Education Research & Development Institute"
+    />
+    <title>404 — Aspiration Letter · Chathuranga Gunathilaka</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary: #f2a922;
+        --primary-dark: #d4901a;
+        --primary-light: #ffd180;
+        --primary-bg: #fff8ee;
+        --dark: #0f0f1c;
+        --paper: #fef9ef;
+        --ink: #2c2b2b;
+        --heading-font: "Playfair Display", serif;
+        --body-font: "DM Sans", sans-serif;
+      }
+
+      body {
+        background: radial-gradient(circle at 10% 30%, #1a1a2e, #0a0a14);
+        font-family: var(--body-font);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1.5rem;
+        position: relative;
+      }
+
+      /* Envelope / paper background effect */
+      .letter-wrapper {
+        max-width: 880px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+        animation: fadeSlideUp 0.7s ease-out;
+      }
+
+      @keyframes fadeSlideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(24px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* classic letter paper design */
+      .letter-card {
+        background: var(--paper);
+        border-radius: 28px;
+        box-shadow:
+          0 25px 45px -12px rgba(0, 0, 0, 0.5),
+          0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+        border: 1px solid rgba(242, 169, 34, 0.3);
+      }
+
+      /* letter inner decor */
+      .letter-inner {
+        padding: 2.8rem 2.8rem 2.5rem;
+        background: var(--paper);
+        position: relative;
+      }
+
+      /* vintage lines effect (like letter paper) */
+      .letter-inner::before {
+        content: "";
+        position: absolute;
+        top: 60px;
+        left: 48px;
+        right: 48px;
+        bottom: 60px;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          to bottom,
+          rgba(242, 169, 34, 0.06),
+          rgba(242, 169, 34, 0.06) 2px,
+          transparent 2px,
+          transparent 28px
+        );
+        border-radius: 16px;
+      }
+
+      /* seal / crest */
+      .letter-seal {
+        position: absolute;
+        top: -20px;
+        right: 40px;
+        background: var(--primary);
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+        border: 2px solid #fff2df;
+        z-index: 5;
+      }
+      .letter-seal i {
+        font-size: 26px;
+        color: #fff;
+        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+      }
+
+      /* header / institute info */
+      .letter-header {
+        text-align: center;
+        border-bottom: 2px solid rgba(242, 169, 34, 0.35);
+        padding-bottom: 1.2rem;
+        margin-bottom: 2rem;
+        position: relative;
+      }
+
+      .institute-name {
+        font-family: var(--heading-font);
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #2c1a0c;
+        letter-spacing: -0.3px;
+      }
+      .institute-name span {
+        color: var(--primary-dark);
+        font-weight: 800;
+      }
+      .institute-sub {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: #b87c2e;
+        font-weight: 500;
+      }
+
+      /* 404 subtle indicator (still present but elegant) */
+      .subtle-404 {
+        display: inline-block;
+        background: rgba(242, 169, 34, 0.1);
+        padding: 0.2rem 1rem;
+        border-radius: 40px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #aa6f28;
+        margin-bottom: 1.2rem;
+        letter-spacing: 0.8px;
+      }
+
+      /* letter body: formal style */
+      .letter-body {
+        font-family: var(--body-font);
+        color: #2d2a24;
+        line-height: 1.65;
+        font-size: 1rem;
+      }
+
+      .salutation {
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: #482c14;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .salutation i {
+        color: var(--primary);
+        font-size: 1rem;
+      }
+
+      .message-content {
+        margin: 1rem 0 1.2rem;
+      }
+
+      .message-content p {
+        margin-bottom: 1rem;
+      }
+
+      .highlight-name {
+        background: linear-gradient(
+          120deg,
+          rgba(242, 169, 34, 0.15) 0%,
+          rgba(242, 169, 34, 0.05) 80%
+        );
+        padding: 0 4px;
+        font-weight: 700;
+        color: #bc6f1c;
+        border-radius: 6px;
+      }
+
+      .request-box {
+        background: rgba(242, 169, 34, 0.05);
+        border-left: 4px solid var(--primary);
+        padding: 1rem 1.3rem;
+        margin: 1.5rem 0;
+        border-radius: 12px;
+        font-style: normal;
+        font-weight: 500;
+      }
+
+      .contact-line {
+        background: #fff2e0;
+        padding: 0.6rem 1rem;
+        border-radius: 18px;
+        display: inline-block;
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 0.95rem;
+        margin: 0.5rem 0;
+        letter-spacing: 0.3px;
+      }
+
+      .signature-block {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px dashed rgba(0, 0, 0, 0.1);
+      }
+
+      .signature-name {
+        font-family: var(--heading-font);
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #2c1a0c;
+      }
+
+      .signature-title {
+        font-size: 0.8rem;
+        color: #6b4c23;
+      }
+
+      .phone-link {
+        color: var(--primary-dark);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      /* footer actions (buttons) styled subtly */
+      .letter-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        padding-top: 1.2rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+      }
+
+      .btn-letter {
+        background: transparent;
+        border: 1.5px solid var(--primary);
+        padding: 9px 24px;
+        border-radius: 40px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-decoration: none;
+        transition: all 0.25s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: #ad6b2c;
+      }
+
+      .btn-letter-primary {
+        background: var(--primary);
+        color: white;
+        border: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .btn-letter-primary:hover {
+        background: var(--primary-dark);
+        transform: translateY(-2px);
+      }
+
+      .btn-letter-outline:hover {
+        background: rgba(242, 169, 34, 0.1);
+        border-color: var(--primary-dark);
+        color: #7a501f;
+      }
+
+      /* Quick links minimal */
+      .quick-mini {
+        margin-top: 1rem;
+        text-align: left;
+      }
+      .quick-mini p {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        color: #ac8b60;
+        margin-bottom: 8px;
+      }
+      .quick-mini ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        list-style: none;
+      }
+      .quick-mini ul li a {
+        font-size: 0.7rem;
+        background: rgba(242, 169, 34, 0.1);
+        padding: 4px 12px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #7b5c34;
+        transition: all 0.2s;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .quick-mini ul li a i {
+        font-size: 0.7rem;
+      }
+      .quick-mini ul li a:hover {
+        background: var(--primary);
+        color: white;
+      }
+
+      /* decorative blobs (soft) */
+      .bg-ornament {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        overflow: hidden;
+      }
+      .ornament {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(242, 169, 34, 0.15),
+          transparent 70%
+        );
+        filter: blur(40px);
+      }
+      .orn-1 {
+        width: 450px;
+        height: 450px;
+        top: -100px;
+        left: -150px;
+      }
+      .orn-2 {
+        width: 500px;
+        height: 500px;
+        bottom: -150px;
+        right: -150px;
+        background: radial-gradient(
+          circle,
+          rgba(242, 169, 34, 0.1),
+          transparent
+        );
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 0.7rem;
+        color: rgba(255, 255, 255, 0.35);
+        z-index: 2;
+        position: relative;
+      }
+
+      @media (max-width: 640px) {
+        .letter-inner {
+          padding: 1.8rem;
+        }
+        .letter-seal {
+          top: -12px;
+          right: 20px;
+          width: 44px;
+          height: 44px;
+        }
+        .institute-name {
+          font-size: 1.3rem;
+        }
+        .request-box {
+          padding: 0.8rem;
+        }
+        .letter-actions {
+          flex-direction: column;
+        }
+        .btn-letter {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-ornament">
+      <div class="ornament orn-1"></div>
+      <div class="ornament orn-2"></div>
+    </div>
+
+    <div class="letter-wrapper">
+      <div class="letter-card">
+        <div class="letter-inner">
+          <!-- wax seal style -->
+          <div class="letter-seal">
+            <i class="fa fa-envelope-open-text"></i>
+          </div>
+
+          <div class="letter-header">
+            <div class="institute-name">
+              Aspiration <span>Education</span> Research & Development Institute
+            </div>
+            <div class="institute-sub">
+              Centre for Excellence · Global Research Hub
+            </div>
+          </div>
+
+          <div class="letter-body">
+            <div class="subtle-404">
+              <i class="fa-regular fa-compass"></i>   Page Not Found — Official
+              Correspondence
+            </div>
+
+            <!-- Formal letter format -->
+            <div class="salutation">
+              <i class="fa-regular fa-building"></i> To:  <strong
+                >Mr.Janaka</strong
+              >
+            </div>
+            <div
+              class="salutation"
+              style="margin-top: -6px; margin-bottom: 1rem"
+            >
+              <i class="fa-regular fa-calendar-alt"></i>  <strong>Date:</strong>
+              7th June 2026   |   
+            </div>
+
+            <div class="message-content">
+              <p>
+                <strong>Subject:</strong> Development & Website Access
+                Coordination – Request for Collaboration & Complete Project
+                Handover
+              </p>
+              <p>Dear Respected Management,</p>
+              <p>
+                I hope this letter finds you in excellent spirits and good
+                health. My name is
+                <strong class="highlight-name">Chathuranga Gunathilaka</strong>,
+                the lead web developer and digital architect behind the official
+                website of
+                <strong
+                  >Aspiration Education Research & Development Institute</strong
+                >. While this page currently appears as an unintended "404"
+                placeholder, I have taken the opportunity to present this as a
+                formal letter to express my continued dedication to the
+                institute’s digital growth.
+              </p>
+
+              <div class="request-box">
+                <i
+                  class="fa-regular fa-hand-point-right"
+                  style="color: #f2a922; margin-right: 10px"
+                ></i>
+                <strong>Formal Request:</strong> I kindly request the institute
+                to get in touch with me regarding the complete website source
+                code, full project files, database architecture, design assets,
+                and any ongoing maintenance requirements. I remain fully
+                available for future development, enhancements, security
+                patches, and technical consulting to ensure Aspiration’s digital
+                presence reflects its academic excellence.
+              </div>
+
+              <p>
+                I would be delighted to schedule a meeting or discussion with
+                the management committee to present a roadmap upgrades, SEO
+                optimization, research portal integration, and user experience
+                refinements. My goal is to align the platform with the
+                institute’s vision for 2026 and beyond.
+              </p>
+
+              <p>
+                For your convenience, below are my direct contact details. I am
+                reachable via phone or any official communication channel
+                preferred by the institute. Please do not hesitate to reach out
+                for any technical assistance, content updates, or complete
+                server migration support.
+              </p>
+
+              <div style="margin: 1.2rem 0 0.8rem">
+                <span class="contact-line"
+                  ><i class="fa-solid fa-phone-volume"></i>  +94 77 268
+                  2666</span
+                >
+                <span class="contact-line" style="margin-left: 10px"
+                  ><i class="fa-regular fa-envelope"></i>
+                   gihangunathilakavck@gmail.com</span
+                >
+              </div>
+
+              <p>
+                I look forward to hearing from the institute’s leadership at
+                your earliest convenience. I take great pride in the work
+                accomplished so far and am excited about the opportunity to
+                further support the Aspiration Education Research & Development
+                Institute’s mission to empower learners and researchers
+                worldwide.
+              </p>
+            </div>
+
+            <div class="signature-block">
+              <div class="signature-name">Chathuranga Gunathilaka</div>
+              <div class="signature-title">
+                Senior Web Developer & Digital Solutions Architect
+              </div>
+              <div
+                class="signature-title"
+                style="font-size: 0.75rem; margin-top: 5px"
+              >
+                <i class="fa-regular fa-building"></i> Freelance Partner |
+                Aspiration Digital Initiative
+              </div>
+              <div style="margin-top: 6px; font-size: 0.75rem">
+                📞
+                <a href="tel:+94772682666" class="phone-link"
+                  >+94 77 268 2666</a
+                >
+                  |   <i class="fa-regular fa-clock"></i> Available: Mon–Sat
+                (9:00 AM – 6:00 PM)
+              </div>
+            </div>
+
+            <!-- Action buttons blend into letter style -->
+            <div class="letter-actions">
+              <a href="index.html" class="btn-letter btn-letter-primary"
+                ><i class="fa fa-home"></i> Return to Homepage</a
+              >
+              <a href="index.html" class="btn-letter btn-letter-outline"
+                ><i class="fa fa-chalkboard-user"></i> Explore Programs</a
+              >
+              <a href="index.html" class="btn-letter btn-letter-outline"
+                ><i class="fa-regular fa-folder-open"></i> Project Inquiries</a
+              >
+            </div>
+
+            <!-- subtle quick nav (still institute context) -->
+            <div class="quick-mini">
+              <p>
+                <i class="fa-regular fa-paper-plane"></i>  Institute Quick Links
+              </p>
+              <ul>
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-regular fa-flag"></i> Korean Language</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-regular fa-microscope"></i> Research
+                    Methodology</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-regular fa-pen-fancy"></i> Academic Writing</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-regular fa-chart-line"></i> Data Analysis</a
+                  >
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-regular fa-envelope"></i> Contact Desk</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end letter-body -->
+        </div>
+        <!-- end letter-inner -->
+      </div>
+      <!-- end letter-card -->
+    </div>
+
+    <footer>
+      <p>
+        © 2026 Aspiration Education Research & Development Institute — This is
+        an official developer correspondence. All rights reserved.
+      </p>
+      <p style="margin-top: 4px">
+        <i class="fa-regular fa-heart" style="color: #f2a922"></i> Awaiting your
+        response, kindly reach out for full source code & maintenance contract.
+      </p>
+    </footer>
+  </body>
+</html>
